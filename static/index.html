@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <video id="videoPlayer" controls>
+            <source src="/videos/sample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div class="video-gallery">
+        <h2 class="gallery-title">Other Videos</h2>
+        <div class="video-list">
+            <div class="video-thumbnail">
+                <video controls>
+                    <source src="/videos/sample2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-thumbnail">
+                <video controls>
+                    <source src="/videos/sample3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Add more video thumbnails as needed -->
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
